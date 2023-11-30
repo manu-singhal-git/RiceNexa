@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url('https://grist.org/wp-content/uploads/2022/04/joseph_eejoon_animated-64-min.gif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.about-us {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.services {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.how-it-works {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.blog {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+.testimonials {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.contact {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/* ... (previous styles) ... */
+
+.about-us {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.disease-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.disease {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.infographic {
+    margin-top: 50px;
+}
+
+.infographic img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* ... (remaining styles) ... */
+
+/* ... (previous styles) ... */
+
+.contact-persons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contact-person {
+    text-align: center;
+    max-width: 250px;
+}
+
+.contact-person img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* ... (remaining styles) ... */
+
+
